@@ -38,7 +38,6 @@ body {
   left: 20px;
   bottom: 20px;
   opacity: 0;
-  transition: opacity 0.3s ease-in 0.4s;
 }
 
 .card.active {
@@ -47,4 +46,5 @@ body {
 
 .card.active h3 {
   opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
 }
